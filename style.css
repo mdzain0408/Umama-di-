@@ -1,0 +1,118 @@
+
+.container{
+  width: 450px;
+  height: 500px;
+  background-color: white;
+  position: relative;
+  left: -300;
+  margin:9% auto;
+  border-radius: 10px; 
+  box-shadow: 5px 5px 10px black;
+}
+
+.container h1{
+  text-align: center;
+  padding-top: 30;
+  color: #777;
+}
+
+.container form{
+  width: 333px; 
+  position: relative;
+  left: 60px;
+  top: 100px;
+  
+}
+  
+.container input {
+  
+  width: 100%;
+  padding-top:10 ;
+  margin-top: 20px;
+  border:0px;
+  border-bottom: 1px solid black;
+  outline: none;
+  
+}
+
+.btn-box{
+  text-align: center;
+  margin-top: 40px;
+}
+
+.btn-box button{
+  width: 130px;
+  height: 40px;
+  background: linear-gradient(to right, #5a11f7 , #a3f711);
+  border-radius: 25px;
+  align-self: center;
+  margin: auto;
+  outline: none;
+  cursor: pointer;
+  
+ 
+}
+
+
+.btn-box2{
+  text-align: center;
+  margin-top: 40px;
+}
+
+.btn-box2 button{
+  position:relative ;
+  justify-content: space-between;
+  margin-right: 20px;
+  width: 130px;
+  height: 40px;
+  background: linear-gradient(to right, #5a11f7 , #a3f711);
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+ 
+}
+
+.container2{
+  width: 450px;
+  height: 500px;
+  background-color: white;
+  position: relative;
+  right: -300;
+  top: -635;
+  margin:9% auto;
+  border-radius: 10px; 
+  box-shadow: 5px 5px 10px black;
+}
+
+.container2 h1{
+  text-align: center;
+  padding-top: 30;
+  color: #777;
+}
+
+.container2 form{
+  width: 333px; 
+  position: relative;
+  left: 60px;
+  top: 100px;
+  
+}
+  
+.container2 input {
+  
+  width: 100%;
+  padding-top:10 ;
+  margin-top: 20px;
+  border:0px;
+  border-bottom: 1px solid black;
+  outline: none;
+  
+}
+
+.sgpa1{
+  background-color: ;
+}
+
+
+
+

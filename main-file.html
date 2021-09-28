@@ -1,0 +1,68 @@
+<html>
+<head>
+    <link 
+    rel="stylesheet"
+    type="text/css"
+    href="style.css"/>
+    
+ </head>
+
+<body>
+
+    <div class="container">
+       <form id = "form1">
+          <h1>SGPA</h1>
+          <Input placeholder="Grade Points" id="place1"></Input><br>
+          <Input placeholder="Total Credits" id="place2"></Input><br>
+
+          <div class="btn-box">
+            <button id="next1" onclick="next()">Next</button>
+          </div>
+
+          <div class="sgpa1">
+            <h1 id="sgpa-1-h1"></h1>
+          </div>
+
+       </form>
+    </div>
+
+    <div class="container2">
+      <form id = "form2">
+        <h1>CGPA</h1>
+        <Input type="text" id="total1" name="Total SGPA points" placeholder="Total SGPA Points (Auto)"></Input><br>
+        <Input placeholder="Total Semister" id="total2"></Input><br>
+      
+        <div class="btn-box2">
+          
+          <button id="submit" onclick="submit()">Submitt</button>
+        </div>
+    </div>
+    <script type="text/javascript">
+
+        var sgpa
+        var cgpa
+
+        
+
+       function next(){
+        var n1 = parseInt(document.getElementById("place1").value)
+        var n2 = parseInt(document.getElementById("place2").value)
+        sgpa = n1/n2
+        alert(sgpa)
+        document.getElementById("total1").value = sgpa
+        document.getElementById(sgpa-1-h1).value = sgpa
+       }
+
+       function submit(){
+        var n4 = parseInt(document.getElementById("total2").value)
+        cgpa = sgpa/n4
+        alert(cgpa)
+       }
+
+    </script>
+
+    
+
+</body>
+
+</html>
